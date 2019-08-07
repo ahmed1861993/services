@@ -1,5 +1,5 @@
 {
-  "homepage": "https://ahmed1861993.github.io/ServiceTodoList/",
+  "homepage": "https://ahmed1861993.github.io/services/",
   "name": "webkeyz",
   "version": "0.1.0",
   "private": true,
@@ -14,7 +14,8 @@
     "react-scripts": "3.0.1"
   },
   "scripts": {
-    
+    "predeploy": "npm run deploy",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
